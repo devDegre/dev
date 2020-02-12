@@ -32,7 +32,7 @@
 
 </ul>
 </li>
-<li class="{{ set_active_route('contact_path') }}"><a href="#">Contacts</a></li>
+<li class="{{ set_active_route('contact_path') }}"><a href="{{ route('contact_path') }}">Contacts</a></li>
 </ul>
  <ul class="nav navbar-nav navbar-right">
    <li><a href="#">Login</a></li>
