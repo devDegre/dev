@@ -12,7 +12,7 @@
  			</p>
  		</div>
  	</div>
- 	<p>Feel free to help to improve the <a href="https://github.com/devDegre/laraDev-tdn">source code</a></p>
+ 	<p>Feel free to help to improve the <a href="https://github.com/devDegre/dev">source code</a></p>
  	<hr>
     
     <h2>What is the website by which laraDev was inspired:).</h2>

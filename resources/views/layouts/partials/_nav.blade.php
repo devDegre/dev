@@ -17,8 +17,8 @@
 
 <!-- Links -->
 <ul class="nav navbar-nav">
-<li class=""><a href="{{ route('root_path') }}">Home</a></li>
-<li class=""><a href="{{ route('about_path') }}">About</a></li>
+<li class="{{ set_active_route('root_path') }}"><a href="{{ route('root_path') }}">Home</a></li>
+<li class="{{ set_active_route('about_path') }}"><a href="{{ route('about_path') }}">About</a></li>
 <li><a href="#">Artisans</a></li>
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planet<span class="caret"></span></a>
@@ -32,7 +32,7 @@
 
 </ul>
 </li>
-<li class=""><a href="">Contacts</a></li>
+<li class="{{ set_active_route('contact_path') }}"><a href="#">Contacts</a></li>
 </ul>
  <ul class="nav navbar-nav navbar-right">
    <li><a href="#">Login</a></li>
